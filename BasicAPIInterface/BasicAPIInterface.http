@@ -1,0 +1,6 @@
+@BasicAPIInterface_HostAddress = http://localhost:5181
+
+GET {{BasicAPIInterface_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
