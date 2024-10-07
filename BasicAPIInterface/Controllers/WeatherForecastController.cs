@@ -1,3 +1,4 @@
+using BasicAPIInterface.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BasicAPIInterface.Controllers

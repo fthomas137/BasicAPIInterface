@@ -1,4 +1,4 @@
-namespace BasicAPIInterface
+namespace BasicAPIInterface.Domain.Models
 {
     public class WeatherForecast
     {
