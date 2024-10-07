@@ -11,8 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\Managers\" />
-    <Folder Include="Domain\Managers\Repositories\" />
     <Folder Include="Domain\Managers\Validators\" />
     <Folder Include="Domain\Utilities\" />
   </ItemGroup>

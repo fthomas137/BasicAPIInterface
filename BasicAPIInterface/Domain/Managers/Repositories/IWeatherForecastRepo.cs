@@ -1,8 +1,8 @@
 ﻿using BasicAPIInterface.Domain.Models;
 
-namespace BasicAPIInterface.Domain.Services
+namespace BasicAPIInterface.Domain.Managers.Repositories
 {
-    public interface IWeatherForecastService
+    public interface IWeatherForecastRepo
     {
         Task<List<WeatherForecast>> GetAll();
     }

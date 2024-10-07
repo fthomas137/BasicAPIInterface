@@ -18,9 +18,9 @@ namespace BasicAPIInterface.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        public async Task<IEnumerable<WeatherForecast>> Get()
         {
-            return _weatherForecastService.GetAll();
+            return await _weatherForecastService.GetAll();
         }
     }
 }
