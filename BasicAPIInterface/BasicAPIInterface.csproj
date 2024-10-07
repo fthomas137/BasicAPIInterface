@@ -15,7 +15,6 @@
     <Folder Include="Domain\Managers\Repositories\" />
     <Folder Include="Domain\Managers\Validators\" />
     <Folder Include="Domain\Utilities\" />
-    <Folder Include="Domain\Services\" />
   </ItemGroup>
 
 </Project>
