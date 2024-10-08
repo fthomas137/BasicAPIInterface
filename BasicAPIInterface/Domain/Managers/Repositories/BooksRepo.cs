@@ -14,7 +14,7 @@ namespace BasicAPIInterface.Domain.Managers.Repositories
             });
         }
 
-        public async Task<Book> GetById(int id)
+        public async Task<Book?> GetById(int id)
         {
             var book = books.FirstOrDefault(x => x.Id == id);
             return book;
@@ -22,7 +22,7 @@ namespace BasicAPIInterface.Domain.Managers.Repositories
 
         public async Task<int> Create(Book book)
         {
-            var newId = books.OrderByDescending(x => x.Id).Select(x => x.Id).First();
+            var newId = books.OrderByDescending(x => x.Id).Select(x => x.Id).FirstOrDefault();
             book.Id = (int)newId + 1;
             books.Add(book);
             return book.Id;
